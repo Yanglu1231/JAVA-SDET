@@ -25,6 +25,10 @@ public class FrontEnd {
 		RotateString r = new RotateString();
 		r.leftrotate("Apple", 2);
 		
+		int [] array = {10, 10, 5, 12, 3, 5};
+		Occurrences o = new Occurrences();
+		o.countNumber(array);
+		
 		TraverseString t = new TraverseString();
 		t.getUnique("racecar and you");
 	}
